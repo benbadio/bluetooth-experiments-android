@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/clientFragment"
+        android:icon="@drawable/ic_client_24dp"
+        android:title="@string/client_title" />
+    <item
+        android:id="@id/serverFragment"
+        android:icon="@drawable/ic_server_24dp"
+        android:title="@string/server_title" />
+</menu>

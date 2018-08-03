@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/clientFragment">
+
+    <fragment
+        android:id="@+id/clientFragment"
+        android:name="com.benbadio.bluetoothexperiments.view.fragment.ClientFragment"
+        android:label="ClientFragment"/>
+    <fragment
+        android:id="@+id/serverFragment"
+        android:name="com.benbadio.bluetoothexperiments.view.fragment.ServerFragment"
+        android:label="ServerFragment"/>
+    <action
+        android:id="@+id/action_global_clientFragment"
+        app:destination="@id/clientFragment"/>
+    <action android:id="@+id/action_global_serverFragment" app:destination="@id/serverFragment"/>
+</navigation>
